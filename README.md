@@ -110,7 +110,7 @@ Agora chegou a hora de vermos o nosso cliente React em ação! Desenvolvido todo
 </div>
 <br><br>
 Vamos testar as funcionalidades dele? Veja no gif abaixo o registro e edição de notas e usuários no decorrer da aplicação!
-<br>
+<br><br>
 <div align:"center">
   <img src = "screenshots/cliente_2.gif" height = "400" width = "auto" alt = "Apresentation 2" />
 </div>
@@ -153,28 +153,6 @@ Recomendamos o cliente iniciar na porta:3000 - acesse http://localhost:3000
 <h2>🛠 Tecnologias</h2>
 As seguintes ferramentas foram usadas na construção do projeto:
 <br>
-
-- 
-- [NPM] => (https://www.npmjs.com/)
-    [Nodemon] => (https://www.npmjs.com/package/nodemon)
-    [Bcrypt] => (https://www.npmjs.com/package/bcrypt)
-    [JWT] => (https://www.npmjs.com/package/jsonwebtoken)
-    [Dotenv] => (https://www.npmjs.com/package/dotenv)
-    [Cors] => (https://www.npmjs.com/package/cors)
-    [RBX] => (https://www.npmjs.com/package/rbx)
-    [React-router-dom] => (https://www.npmjs.com/package/react-router-dom)
-    [React-quill] => (https://www.npmjs.com/package/react-quill)
-    [Axios] => (https://www.npmjs.com/package/axios)
-    [Node-Sass] => (https://www.npmjs.com/package/node-sass)
-    [Bulma] => (https://www.npmjs.com/package/bulma)
-    [React-burger-menu] => (https://www.npmjs.com/package/react-burger-menu)
-    
-- [Express] => (https://expressjs.com/en)
-- [MongoDB] => (https://www.mongodb.com/)
-- [Mongoose] => (https://mongoosejs.com/)
-- [React] => (https://pt-br.reactjs.org/)
-- [Moment] => (https://momentjs.com/)
-- [Fontawesome] => (https://fontawesome.com/)
 
 <ul>
   <li>[Node.js] => (https://nodejs.org/en/)</li>
