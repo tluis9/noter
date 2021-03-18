@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "javascript_note/src/assets/images/logo_1.png" height = "358" width = "175" alt = "Noter" />
+  <img src = "javascript_note/src/assets/images/logo_1.png" height = "138" width = "155" alt = "Noter" />
 </p>
 
 <div align = "center">
@@ -62,7 +62,7 @@ Veremos melhor agora como a aplicação funciona. Utilizando uma ferramenta de t
 
 <h3>Registrando o Usuário</h3>
 Nesse momento, passamos no formato JSON o nome, e-mail e senha de nosso usuário fictício "Luis User" para que fosse registrado em nosso banco de dados não-relacional, o Mongo. O retorno, como você pode ver no screenshot abaixo, são as informações passadas acima e algumas complementadas pelo próprio back-end da aplicação, como id e a data da criação e atualização do usuário.
-<br>
+<br><br>
 Note que a senha retorna em hash para maior segurança do usuário, utilizando a lib Bcrypt do Node para fazer isso.  
 <br><br>
 <div align:"center">
@@ -73,7 +73,7 @@ Note que a senha retorna em hash para maior segurança do usuário, utilizando a
 
 <h3>Registrando uma nota</h3>
 O próximo teste que faremos é a criação de uma nota por parte desse novo usuário que criamos. Para que funcione, teremos que passar o título e o corpo da nota que desejamos criar, junto com o token de acesso do usuário logado no header de nossa aplicação para que não apresente um erro de autenticação que impeça a criação da nota. 
-<br>
+<br><br>
 Cada nota recebe, além das configurações criadas, uma id que pertence apenas àquela nota, o id do autor, e assim como no usuário, uma data de criação e atualização de dados da nota.  
 <br><br>
 <div align:"center">
@@ -104,7 +104,7 @@ O APP nos permite manipular nossas notas e dados de várias maneiras, de acordo 
 <div id="demonstracao">
 <h2> 📌 Demonstração do APP</h2>
 Agora chegou a hora de vermos o nosso cliente React em ação! Desenvolvido todo em React JS, utilizando a RBX, uma implementação do React que nos permite utilizar os componentes do Bulma, o sistema ficou com o layout responsivo abaixo!
-<br>
+<br><br>
 <div align:"center">
   <img src = "screenshots/cliente_1.gif" height = "400" width = "auto" alt = "Apresentation" />
 </div>
@@ -118,16 +118,18 @@ Vamos testar as funcionalidades dele? Veja no gif abaixo o registro e edição d
 Caso deseje ver e utilizar o APP, basta clicar no link abaixo e conferir no Heroku!
 <br> 
 <a href="https://noter-client.herokuapp.com/"> Veja o Noter Online! </a>
-
+<br>
+<br>
+<br>
 
 
 
 <div id="requisitos">
 <h2> 🎲 Pré-requisitos </h2>
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js, Express, Mongo Db, Postman (ou outra ferramente de testes de rotas) e React. Além disto é bom ter um editor para trabalhar com o código como VSCode.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js, Express, Mongo Db, Postman (ou outra ferramenta de testes de rotas) e React. Além disto é bom ter um editor para trabalhar bem o código. Recomendamos o VS Code.
 <br><br>
 <strong> Clone este repositório </strong><br>
-$ git clone <https://github.com/tluis9/noter>
+$ git clone https://github.com/tluis9/noter.git
 <br><br>
 <strong> Acesse a pasta do projeto no terminal/cmd</strong><br>
 $ cd Noter
@@ -135,7 +137,7 @@ $ cd Noter
 <strong> Instale as dependências (veremos todas no tópico seguinte) </strong><br>
 <br>
 <strong> Execute a API e o client React </strong><br>
-$ npx nodemon start
+$ npx nodemon start<br>
 $ npm start
 <br><br>
 Recomendamos a API iniciar na porta:3001 - acesse http://localhost:3001<br>
@@ -152,7 +154,7 @@ Recomendamos o cliente iniciar na porta:3000 - acesse http://localhost:3000
 As seguintes ferramentas foram usadas na construção do projeto:
 <br>
 
-- [Node.js] => (https://nodejs.org/en/)
+- 
 - [NPM] => (https://www.npmjs.com/)
     [Nodemon] => (https://www.npmjs.com/package/nodemon)
     [Bcrypt] => (https://www.npmjs.com/package/bcrypt)
@@ -173,6 +175,32 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React] => (https://pt-br.reactjs.org/)
 - [Moment] => (https://momentjs.com/)
 - [Fontawesome] => (https://fontawesome.com/)
+
+<ul>
+  <li>[Node.js] => (https://nodejs.org/en/)</li>
+  <li>[NPM] => (https://www.npmjs.com/)
+    <ul>
+      <li>[Nodemon] => (https://www.npmjs.com/package/nodemon)</li>
+      <li>[Bcrypt] => (https://www.npmjs.com/package/bcrypt)</li>
+      <li>  [JWT] => (https://www.npmjs.com/package/jsonwebtoken)</li>
+      <li>  [Dotenv] => (https://www.npmjs.com/package/dotenv)</li>
+      <li>  [Cors] => (https://www.npmjs.com/package/cors)</li>
+      <li>  [RBX] => (https://www.npmjs.com/package/rbx)</li>
+      <li>  [React-router-dom] => (https://www.npmjs.com/package/react-router-dom)</li>
+      <li>  [React-quill] => (https://www.npmjs.com/package/react-quill)</li>
+      <li>  [Axios] => (https://www.npmjs.com/package/axios)</li>
+      <li>  [Node-Sass] => (https://www.npmjs.com/package/node-sass)</li>
+      <li>  [Bulma] => (https://www.npmjs.com/package/bulma)</li>
+      <li>  [React-burger-menu] => (https://www.npmjs.com/package/react-burger-menu)</li>
+    </ul>
+  </li>  
+   <li>  [Express] => (https://expressjs.com/en)</li>
+   <li>[MongoDB] => (https://www.mongodb.com/)</li>
+ <li>[Mongoose] => (https://mongoosejs.com/)</li>
+ <li>[React] => (https://pt-br.reactjs.org/)</li>
+ <li>[Moment] => (https://momentjs.com/)</li>
+ <li>[Fontawesome] => (https://fontawesome.com/)    </li>      
+</ul>
 
 </div>
 <br>
