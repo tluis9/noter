@@ -1,0 +1,14 @@
+@import "./custom_colors";
+
+.auth{
+  background:url("../assets/images/back.jpeg") repeat center padding-box fixed;
+  height: 100%;
+  padding: 1rem 1.5rem 8rem;
+}
+
+img.logo_auth{
+  width: 40%;
+  margin: 0 auto;
+  display: table;
+}
+

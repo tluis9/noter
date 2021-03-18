@@ -1,0 +1,60 @@
+@import "./custom_colors";
+
+
+nav.navbar {
+  height: 70px;
+
+  .navbar-brand {  
+    img {
+      height: 80px;
+      margin-left: 25%;
+      margin-top:15px;
+    }
+    max-height:4.25rem;
+  }
+}
+
+a.navbar-item:hover{
+  background-color: #ebebeb;
+  color: #00947e;
+}
+
+// MENU
+
+.login-button{
+  border-color: #00947e;
+  color: #00947e;
+}
+
+  .login-button:hover{
+    background-color: #00947e;
+    color: #fff;
+  }
+
+.register-button{
+  color: #00947e !important;
+}
+
+  .register-button:hover{
+    color: #fff !important;
+    background-color: #1f191c !important;
+  }
+
+a.navbar-item:hover, .navbar-link:not(.is-arrowless):hover{
+  background-color: #1f191c !important;
+  color: #fff !important;
+}
+
+.is-active > .navbar-start > .navbar-item{
+  display: table;
+}
+
+
+//header-logged
+.dropdown-item a{
+  color:#00947e !important;
+}
+
+img.logo-header-logged{
+  height: 50px !important;
+}

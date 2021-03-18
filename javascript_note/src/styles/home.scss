@@ -1,0 +1,87 @@
+@import "./custom_colors";
+
+.title.is-1{
+  text-align: center;
+  padding: 0 10%;
+}
+
+.subtitle.is-5{
+  text-align: center;
+  padding: 0 15%;
+}
+
+.button.is-white.is-outlined{
+  margin: 0 auto;
+  display: table;
+}
+
+.subtitle.is-6, .title.is-3{
+  color: #403b33 !important;
+}
+
+.home-top{
+  background-color: $custom-green;
+  height: calc(100% - 70px);
+  padding: 2.5rem 1.5rem !important;
+}
+
+.second-section, .fourth-section{
+  background-color: $custom-gray;
+  padding: 3% !important;
+  height: auto;
+}
+
+.third-section{
+  padding: 3% !important;
+  height: auto;
+}
+
+.section-title{
+  margin: 11% 0 0;
+}
+
+
+//Images
+.img-principal > img{
+  margin: 0 auto;
+  display: table;
+  width: 50%;
+}
+
+.img-secondary > img{
+  width: 70%;
+  display: table;
+  margin: 0 auto;
+}
+
+.img-third > img{
+  margin: 9% auto;
+  display: table;
+  width: 90%;
+}
+
+.img-fourth > img{
+  margin: 0 auto;
+  display: table;
+}
+
+
+//footer
+.footer{
+    background-color: $custom-green;
+    width: 100%;
+    padding: 2%!important;
+}
+
+  h1.footer-title{
+    font-size: 1rem !important;
+    text-align: center;
+    color: #fff !important;
+  }
+
+//querys
+@media screen and (max-width: 530px) {
+  .button strong{
+    font-size:4.2vw;
+  }
+}
